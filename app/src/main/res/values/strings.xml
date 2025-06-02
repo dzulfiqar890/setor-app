@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PAS</string>
+    <string name="delete">Hapus</string>
+    <string name="title">Nama Motor</string>
+    <string name="description">Deskripsi</string>
+    <string name="category">Kategori</string>
+    <string name="submit">Kirim</string>
+    <string name="date">Tanggal</string>
+
+</resources>

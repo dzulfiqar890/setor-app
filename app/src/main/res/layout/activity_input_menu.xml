@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etNamaMenu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Nama Motor"
+            android:background="@android:drawable/edit_text"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etHargaMenu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Harga Sewa Motor"
+            android:inputType="number"
+            android:background="@android:drawable/edit_text"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etDeskripsiMenu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="Deskripsi Motor"
+            android:background="@android:drawable/edit_text"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etUrlGambar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="URL Gambar Motor"
+            android:inputType="textUri"
+            android:background="@android:drawable/edit_text"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/ivPreviewGambar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="12dp"
+            android:scaleType="centerCrop"
+            android:background="#F0F0F0"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnPreviewGambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preview Gambar"
+            android:backgroundTint="#2196F3"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnSimpanMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Pesanan"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
